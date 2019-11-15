@@ -1,6 +1,5 @@
 // 文章分类路由
 const category = require('express').Router();
-
 // 添加分类
 category.post('/', require('./actions/category/create'));
 // 根据分类ID删除分类信息
